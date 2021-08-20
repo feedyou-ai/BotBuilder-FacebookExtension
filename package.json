@@ -1,0 +1,34 @@
+{
+  "name": "botbuilder-facebookextension",
+  "version": "1.2.4-1",
+  "description": "Fork of https://github.com/iMicknl/BotBuilder-FacebookExtension",
+  "main": "./lib/botbuilder-facebook.js",
+  "types": "./lib/botbuilder-facebook.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "types": "tsc --declaration",
+    "test": "echo \"Error: no test specified yet\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/feedyou-ai/BotBuilder-FacebookExtension"
+  },
+  "keywords": [
+    "botbuilder",
+    "facebook",
+    "chatbots",
+    "bots"
+  ],
+  "author": "Me",
+  "license": "MIT",
+  "dependencies": {
+    "botbuilder": "github:feedyou-ai/botbuilder#main",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.22",
+    "typescript": "^2.3.3"
+  }
+}
